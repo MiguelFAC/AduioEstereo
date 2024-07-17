@@ -1,0 +1,44 @@
+/*! Estilos de la página */
+body{
+    background-color: black;
+    color: wheat;
+    margin-top: 300px; 
+    text-align:center;
+}
+/*! Estilos los input */
+input{
+    -webkit-appearance:none;
+    width: 400px;
+    height: 15px;
+    background-color: black;
+    outline: none;
+    border: 5px solid purple;
+    border-radius: 20px;
+}
+/*! Estilos para los navegadores */
+input::-webkit-slider-thumb{
+    -webkit-appearance:none;
+    appearance:none;
+    background: black;
+    cursor:pointer;
+    border: 5px solid purple;
+    border-radius: 4px;
+    width: 40px;
+    height: 30px;
+}
+/*! Estilos para el botón */
+button{
+    background:none;
+    color:purple;
+    border:purple solid 4px;
+    border-radius:4px;
+    padding: 8px 20px;
+    font-size:1.5rem;
+    cursor: pointer;
+    margin-top: 40px;
+}
+/*!Estilos para el hover del boton */
+button:hover{
+    background-color: purple;
+    color: black;
+}
